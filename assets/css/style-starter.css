@@ -2823,7 +2823,7 @@ pre {
 
 @media (min-width: 992px) {
   .container, .container-sm, .container-md, .container-lg {
-    max-width: 960px; } }
+    max-width: 800; } }
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
@@ -10418,7 +10418,7 @@ h4.sub-title {
 .w3l-main-banner .banner-info p {
   font-size: 30px;
   font-weight: 00;
-  color: rgb(37, 24, 17); }
+  color: rgb(203 93 68); }
 
 .w3l-main-banner .banner-info {
   padding-top: 100px; }
@@ -10435,9 +10435,9 @@ h4.sub-title {
   -ms-transition: 0.3s ease-in; }
 
 .w3l-main-banner .banner-view {
-  background: url(../image/a5.jpg) no-repeat right;
+  background: rgb(32, 109, 29); no-repeat right;
   background-size: cover;
-  min-height: 100vh;
+  min-height: 60vh;
   position: relative;
   z-index: 0;
   display: grid;
@@ -10535,14 +10535,14 @@ h4.sub-title {
     background: rgba(7, 10, 12, 0.72);
     position: absolute;
     top: 0;
-    min-height: 100%;
+    min-height: 50%;
     left: 0;
     right: 0;
     z-index: -1; }
   .w3l-feature-3 .middle-section {
     display: grid; }
   .w3l-feature-3 .three-grids-columns {
-    padding: 40px 40px;
+    padding: 10px 10px;
     transition: 0.3s ease-out;
     border-radius: 4px;
     /* border: 1px solid #828282; */
